@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  min-width: 100vw;
+  /* font en rems */
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  margin: 3rem;
+  min-width: 28rem;
+  background-color: tomato;
+  padding: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card__image {
+  width: 44rem;
+  height: 35vh;
+  background-color: violet;
+  margin: 0 auto;
+}
+
+.card__info {
+  margin: 0 auto;
+  width: 36rem;
+  height: 35vh;
+  background-color: yellowgreen;
+}
