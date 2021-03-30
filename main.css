@@ -2,6 +2,27 @@
   box-sizing: border-box;
 }
 
+:root {
+  /* colors */
+  --white: #ffffff;
+  --gray: #00000029;
+  --black: #666666;
+  --primary: #88c9f6;
+  --primary-muted: #5a90bc7f;
+
+  /* font family */
+  --montserrat: "Montserrat", sans-serif;
+  --noto: "Noto Sans", sans-serif;
+
+  /* font size */
+  --fs-36: 3.6rem;
+  --fs-16: 1.6rem;
+  --fs-14: 1.4rem;
+
+  /* font weight */
+  --fw-regular: 300;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -10,7 +31,7 @@ body {
   margin: 0;
   min-width: 100vw;
   font-size: 1.4rem;
-  /* font en rems */
+  font-family: var(--noto);
 }
 
 .main {
